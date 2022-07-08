@@ -1,0 +1,75 @@
+
+  .firstHalf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100%;
+  }
+  
+  #hi {
+    width: 80%;
+    font-size: 50px;
+    font-family: Helvetica;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    
+    color: whitesmoke;
+  }
+  
+  .mask {
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -33px;
+   
+  }
+  
+  .mask span  {
+    display: inline-flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 166px;
+    padding-bottom: 3px;
+    
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span[data-up] {
+    transform: translateY(-200%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #0ecffe 50%, #07a6f1);
+  }
+  
+  .mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #18e198 50%, #0ec15d);
+  }
+  
+  .mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #8a7cfb 50%, #633e9c);
+  }
+  
+  .mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
+  .mask span:nth-child(5) {
+    background-image: linear-gradient(45deg, #35a748 50%, #2db059);
+  }
+  .mask span:nth-child(6) {
+    background-image: linear-gradient(45deg, #d358b2 50%, #c737a1);
+  }
+  #cp {
+    opacity: 0;
+  }
