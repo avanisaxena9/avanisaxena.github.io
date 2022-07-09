@@ -3,8 +3,8 @@
     flex-direction: column;
 }
 .map {
-    height: 40vh;
-    width: 50vw;
+    height: 30vh;
+    width: 40vw;
     margin : 5% auto;
     border: 3px solid #dbb8b8;
     border-radius: 10px;
@@ -19,6 +19,10 @@ iframe {
 
 .icc {
     color: #591919;
+}
+
+#contact {
+  padding-bottom: 4%;
 }
 /* }
   .contact-end{
