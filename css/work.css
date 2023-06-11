@@ -7,26 +7,26 @@
 .work-left , .work-right {
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     justify-content: center;
     align-items: center;
-}
+} 
 
 
 
-.work-left-top , .work-left-bottom , .work-right-bottom, .work-right-top {
-    margin: 2%;
+.work-left-top , .work-left-bottom , .work-right-bottom, .work-right-top, .work-right-mid, .work-left-mid {
+    margin-top: 2%;
     justify-content: center ;
     align-items: center;
 }
-.work-left-top , .work-right-top {
+/* .work-left-top , .work-right-top, .work-left-mid {
     padding-right: 2%;
 }
 
-.work-left-bottom , .work-right-bottom {
+.work-left-bottom , .work-right-, .work-right-mid {
     padding-left: 2%;
-}
+} */
 .card {
     display: flex;
     width: 450px;
@@ -43,7 +43,7 @@
    
 }
 .card:hover {
-   transform: scale(1.1,1.1);
+   transform: scale(1.05,1);
    
 }
 .card_info {
